@@ -1,6 +1,6 @@
 {
     "name": "APC UPS Daemon",
-    "version": "1.9.1",
+    "version": "1.9.2",
     "slug": "apcupsd",
     "description": "View information from APC USB UPSs",
     "url": "https://github.com/korylprince/hassio-apcupsd/tree/master/apcupsd",
@@ -11,7 +11,7 @@
     "hassio_api": true,
     "hassio_role": "manager",
     "map": ["share"],
-    "devices": ["/dev/usb/apcups_usb:/dev/usb/apcups_usb:rwm"],
+    "devices": ["/dev/usb/apcups_usb:/dev/usb/apcups_usb:rwm", "/dev/usb/:/dev/usb/:rwm"],
     "options": {
         "name": "APC UPS",
         "cable": "usb",
