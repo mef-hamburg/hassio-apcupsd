@@ -11,7 +11,7 @@
     "hassio_api": true,
     "hassio_role": "manager",
     "map": ["share"],
-    "devices": ["/dev/usb/:/dev/usb/:rwm", "/dev/ttyACM0/:/dev/ttyACM0/:rwm", "/dev/ttyAMA0/:/dev/ttyAMA0/:rwm"],
+    "devices": ["/dev/usb/:/dev/usb/:rwm", "/dev/ttyACM0:/dev/ttyACM0:rwm", "/dev/ttyAMA0:/dev/ttyAMA0:rwm"],
     "options": {
         "name": "APC UPS",
         "cable": "usb",
